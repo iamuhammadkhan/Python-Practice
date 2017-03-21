@@ -16,5 +16,7 @@ elif calcSign == '*':
     print('Thank you, your result is: ', calcValue1 * calcValue2)
 elif calcSign == '/':
     print('Thank you, your result is: ', calcValue1 / calcValue2)
+elif calcSign == '%':
+    print('Thank you, your result is: ', calcValue1 % calcValue2)
 else:
     print('Sorry you have entered invalid value or math operator, please try again')
